@@ -14,9 +14,6 @@ public class NXTControl implements INXTControl {
 	public void moveForward() {
 		Motor.A.forward();
 		Motor.B.forward();
-		Motor.C.backward();
-		Motor.A.backward();
-		Motor.C.forward();
 	}
 
 	@Override
